@@ -11,5 +11,6 @@ $(function() {
 
   $(".green-box").fadeToggle();
   $(".green-box").fadeToggle();
+  $(".blue-box").fadeToggle();
 
 });
