@@ -7,10 +7,18 @@ $(function() {
   $(".red-box").fadeIn(2000);
   $(".red-box").fadeTo(2000, .2);
   $(".green-box").fadeTo(3000, .4);
-  $(".blue-box").fadeTo(4000, .8);
+  // $(".blue-box").fadeTo(4000, .8);
 
   $(".green-box").fadeToggle();
   $(".green-box").fadeToggle();
-  $(".blue-box").fadeToggle();
+  // $(".blue-box").show();
+  // $(".blue-box").hide();
+  // $(".blue-box").fadeToggle();
+  $(".blue-box").slideUp(2000);
+  $(".blue-box").slideDown(2000);
+
+  $("p").hide();
+  $("p").slideDown(8000);
+
 
 });
