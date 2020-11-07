@@ -17,6 +17,7 @@ $(function() {
   $(".blue-box").slideUp(2000);
   $(".blue-box").slideDown(2000);
 
+  // test
   $("p").hide();
   $("p").slideDown(8000);
 
